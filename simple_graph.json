@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Start"
+    },
+    {
+      "id": "B",
+      "label": "Process"
+    },
+    {
+      "id": "C",
+      "label": "End"
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "B",
+      "label": "go"
+    },
+    {
+      "source": "B",
+      "target": "C",
+      "label": "done"
+    }
+  ]
+}
